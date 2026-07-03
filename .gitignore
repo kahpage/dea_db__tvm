@@ -9,3 +9,4 @@
 helper/**/*.htm
 helper/**/*.html
 helper/**/*.json
+helper/web
