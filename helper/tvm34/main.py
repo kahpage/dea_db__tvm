@@ -56,42 +56,48 @@ def sanitize_string(s: str) -> str:
 def main():
     """Create circles.json"""
     print(f"Retrieving circles information for {NAME} ...")
-    raw_url = "https://web.archive.org/web/20250619191234id_/http://npass.net/the_vocloid_mst/"
+    raw_url = "https://web.archive.org/web/20170629075447id_/http://ketto.com/mimiken/alist2.cgi?9"
     
     # Parse the HTML content to extract circle information
     soup = retrieve_soup_fetch_if_needed(raw_url)
     circles = []
 
     # table: with border=1
-    tables = soup.select('table.tbl110')
+    tables = soup.select('table[border="1"]')
     
     for table in tables:
         table_rows = table.select("tr")
         if not table_rows:
             raise Exception("No rows found in the circles table.")
 
-        for row in table_rows[1:]:  # Skip header row
+        for row in table_rows:  # Skip header row
                 cols = row.select("td")
-                if len(cols) < 3:
-                    print("Skipping row with insufficient columns:", row)
+                if len(cols) < 5:
+                    print(f"Skipping row with insufficient columns ({len(cols)}): {row}")
                     continue
+                if cols[2].get_text(strip=True) == "サークル名":
+                    continue  # Skip header row
 
-                position = sanitize_string(cols[0].get_text(strip=True))
-                # cols[1]: name + <br> + penname
-                name_penname_html = cols[1]
-                name_parts = [part for part in name_penname_html.stripped_strings]
-                circle_name = name_parts[0] if len(name_parts) > 0 else None
-                pen_name = name_parts[1].strip("（）") if len(name_parts) > 1 else None
-                circle_url_tag = cols[1].select_one("a")
-                circle_url = circle_url_tag.get("href") if circle_url_tag else None
-                comments = sanitize_string(cols[2].get_text(strip=True))
+                # cols[0,1] skipped
+                circle_name = sanitize_string(cols[2].get_text(strip=True))
+                circle_pen_name = sanitize_string(cols[3].get_text(strip=True))
+                position = sanitize_string(cols[4].get_text(strip=True))
+
+                circle_urls = []
+                circle_url_tag = cols[2].select_one("a")
+                if circle_url_tag and circle_url_tag.has_attr("href"):
+                    circle_urls.append(circle_url_tag["href"])
+                url_tags = cols[3].select("a")
+                for url_tag in url_tags:
+                    if url_tag and url_tag.has_attr("href"):
+                        circle_urls.append(url_tag["href"])
 
                 circle = Circle(
                     aliases=[circle_name],
-                    pen_names=[pen_name] if pen_name else None,
-                    links=[circle_url.replace("https://web.archive.org/web/20250619191234/", "")] if circle_url else None,
+                    pen_names=[circle_pen_name] if circle_pen_name else None,
+                    links=[url.replace("https://web.archive.org/web/000000000000000000000/", "") for url in circle_urls] if circle_urls else None,
                     position=position,
-                    comments=comments if comments else None,
+                    # comments=", ".join(description_parts) if description_parts else None,
                 )
                 circles.append(circle)
 
