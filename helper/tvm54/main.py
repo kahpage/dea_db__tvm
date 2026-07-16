@@ -46,8 +46,8 @@ def retrieve_soup_fetch_if_needed(url: str) -> BeautifulSoup:
                 f"Failed to retrieve data from {url}, status code: {response.status_code}"
             )
         html_path.write_bytes(response.content)
-    with html_path.open("rb") as f:
-        return BeautifulSoup(f, "lxml")
+    with html_path.open("r", encoding="cp932", errors="replace") as f:
+        return BeautifulSoup(f, "html.parser")
 
 
 def sanitize_string(s: str) -> str:
@@ -65,7 +65,7 @@ def main():
         sys.stderr.reconfigure(encoding="utf-8")
 
     print(f"Retrieving circles information for {NAME} ...")
-    raw_url = ""
+    raw_url = "https://web.archive.org/web/20240108153949id_/https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm54"
     
     # Parse the HTML content to extract circle information
     soup = retrieve_soup_fetch_if_needed(raw_url)
@@ -104,7 +104,7 @@ def main():
                 circle = Circle(
                     aliases=[circle_name],
                     pen_names=[circle_pen_name] if circle_pen_name else None,
-                    links=[url for url in circle_urls] if circle_urls else None,
+                    links=[url.replace("https://web.archive.org/web/20240108153949/", "") for url in circle_urls] if circle_urls else None,
                     position=position,
                     # comments=", ".join(description_parts) if description_parts else None,
                 )

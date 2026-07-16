@@ -46,7 +46,7 @@ def retrieve_soup_fetch_if_needed(url: str) -> BeautifulSoup:
                 f"Failed to retrieve data from {url}, status code: {response.status_code}"
             )
         html_path.write_bytes(response.content)
-    with html_path.open("rb") as f:
+    with html_path.open("r", encoding="cp932", errors="replace") as f:
         return BeautifulSoup(f, "html.parser")
 
 

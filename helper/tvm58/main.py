@@ -65,7 +65,7 @@ def main():
         sys.stderr.reconfigure(encoding="utf-8")
 
     print(f"Retrieving circles information for {NAME} ...")
-    raw_url = ""
+    raw_url = "https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm58"
     
     # Parse the HTML content to extract circle information
     soup = retrieve_soup_fetch_if_needed(raw_url)

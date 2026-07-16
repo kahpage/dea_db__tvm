@@ -2377,6 +2377,112 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
+    if True: # ==== tvm62  ====
+        i = 62
+        event_name = f"tvm{i}"
+        print(f"Processing {event_name} ...")
+        
+        media_ = [
+            Medium("62_tvm62clogo.webp",
+                   [Source("https://web.archive.org/web/20260309220612/https://ketto.com/tvm/", (ReliabilityTypes.Reliable, OriginTypes.Official))]),
+            Medium("62_20260425tvm62i.pdf",
+                   [Source("https://ketto.com/map/20260425tvm62i.pdf", (ReliabilityTypes.Reliable, OriginTypes.Official))]),
+            # Medium("",
+            #        [Source("", (ReliabilityTypes.Reliable, OriginTypes.Official))]),
+            ]
+        locations = [
+            Location(
+                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.1900108045256!2d140.03295367533178!3d35.64768993181651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6022821fd52ebfdf%3A0xcec0c09c4bed45e0!2sMakuhari%20Messe!5e0!3m2!1sen!2sfr!4v1766770606094!5m2!1sen!2sfr",
+                description="幕張メッセ",
+                sources=[Source("https://web.archive.org/web/20260424152815/https://ketto.com/tvm/", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+            ),  
+        ]
+        event = Event(
+            aliases=["THE VOC＠LOiD 超 M＠STER 62", "ボーマス62", "VOM@S62"],
+            dates="2026.04.25",
+            circles=[],
+            media=media_,
+            sources=[
+                Source("Date: https://web.archive.org/web/20260309220612/https://ketto.com/tvm/", (ReliabilityTypes.Reliable, OriginTypes.Official)),
+                Source("Participating circles: https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm62", (ReliabilityTypes.Reliable, OriginTypes.Official)),
+            ],
+            locations=locations,
+            last_edited="2026.07.16",
+        )
+        # Retrieve circles
+        event.circles = retrieve_circles(event_name)
+        events.append(event)
+
+    if True: # ==== tvm63  ====
+        i = 63
+        event_name = f"tvm{i}"
+        print(f"Processing {event_name} ...")
+        
+        media_ = [
+            Medium("63_tvm63logo.png",
+                   [Source("https://web.archive.org/web/20260624110958/https://ketto.com/tvm/", (ReliabilityTypes.Reliable, OriginTypes.Official))]),
+            Medium("63_20260725tvm63.pdf",
+                   [Source("https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm63", (ReliabilityTypes.Reliable, OriginTypes.Official))]),
+            # Medium("",
+            #        [Source("", (ReliabilityTypes.Reliable, OriginTypes.Official))]),
+            ]
+        locations = [
+            Location(
+                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1622.4614245873063!2d139.74702373866853!3d35.58029602459979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601861bc691ff473%3A0x3c65b91947c29bba!2sTRC%20First%20Exhibition%20Hall!5e0!3m2!1sen!2sfr!4v1766790392057!5m2!1sen!2sfr",
+                description="TRC東京流通センター第二展示場Eホール",
+                sources=[Source("https://web.archive.org/web/20260624110958/https://ketto.com/tvm/", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+            ),  
+        ]
+        event = Event(
+            aliases=["THE VOC＠LOiD M＠STER 63", "ボーマス63", "VOM@S63"],
+            dates="2026.07.25",
+            circles=[],
+            media=media_,
+            sources=[
+                Source("Date: https://web.archive.org/web/20260624110958/https://ketto.com/tvm/", (ReliabilityTypes.Reliable, OriginTypes.Official)),
+                Source("Participating circles: https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm63", (ReliabilityTypes.Reliable, OriginTypes.Official)),
+            ],
+            locations=locations,
+            last_edited="2026.07.16",
+        )
+        # Retrieve circles
+        event.circles = retrieve_circles(event_name)
+        events.append(event)
+
+    # if True: # ==== tvm  ====
+    #     i = 
+    #     event_name = f"tvm{i}"
+    #     print(f"Processing {event_name} ...")
+        
+    #     media_ = [
+    #         # Medium("",
+    #         #        [Source("", (ReliabilityTypes.Reliable, OriginTypes.Official))]),
+    #         # Medium("",
+    #         #        [Source("", (ReliabilityTypes.Reliable, OriginTypes.Official))]),
+    #         ]
+    #     locations = [
+    #         Location(
+    #             iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1622.4614245873063!2d139.74702373866853!3d35.58029602459979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601861bc691ff473%3A0x3c65b91947c29bba!2sTRC%20First%20Exhibition%20Hall!5e0!3m2!1sen!2sfr!4v1766790392057!5m2!1sen!2sfr",
+    #             description="TRC東京流通センター",
+    #             sources=[Source("", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+    #         ),  
+    #     ]
+    #     event = Event(
+    #         aliases=["THE VOC＠LOiD M＠STER ", "ボーマス", "VOM@S"],
+    #         dates="",
+    #         circles=[],
+    #         media=media_,
+    #         sources=[
+    #             Source("Date: ", (ReliabilityTypes.Reliable, OriginTypes.Official)),
+    #             Source("Participating circles: ", (ReliabilityTypes.Reliable, OriginTypes.Official)),
+    #         ],
+    #         locations=locations,
+    #         last_edited="",
+    #     )
+    #     # Retrieve circles
+    #     event.circles = retrieve_circles(event_name)
+    #     events.append(event)
+
     # ==== event group ====
     media = [
         Medium("eg_20071020193402_tvm_bana.gif",
