@@ -82,9 +82,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3245.794139163642!2d139.7214917753278!3d35.55878603669134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601860f87f5da4e3%3A0x8a0493a2f4accfb0!2sOta%20City%20Industrial%20Plaza%20PiO!5e0!3m2!1sen!2sfr!4v1766760726321!5m2!1sen!2sfr",
+                coordinates=(35.5587817, 139.7240667),
+                address="1 Chome-20-20 Minamikamata, Ota City, Tokyo 144-0035, Japan",
                 description="大田区産業プラザ",
-                sources=[Source("https://web.archive.org/web/20250619191234/http://npass.net/the_vocloid_mst/", (ReliabilityTypes.Reliable, OriginTypes.OfficialExt))]
+                sources=[Source("https://web.archive.org/web/20250619191234/http://npass.net/the_vocloid_mst/", (ReliabilityTypes.Reliable, OriginTypes.OfficialExt))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlSopXAxX4zYII19vbdI4rX0w5RiVyPdD_3T-rcKAI3NBfzD7cKS2HEXWrr_JXATLT3BXULla2lC3oHidDik9oIlyt_6fS4t9y2wbW_lLHAvuil4Cw0WsOtevHY2sumWk6a1Mp8Hg=s0?imgmax=0",
+                url="https://maps.app.goo.gl/mSxwaUchFHGpFwBf9",
             ),  
         ]
         event = Event(
@@ -116,9 +120,14 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3246.738269635372!2d139.6984898753267!3d35.535465037968315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60186099fb404b45%3A0xaf9a6f040b65ff4c!2sKawasaki%20City%20Industrial%20Promotion%20Hall!5e0!3m2!1sen!2sfr!4v1766761385232!5m2!1sen!2sfr",
+                coordinates=(35.5354607, 139.6984899),
+                address="66-20 Horikawacho, Saiwai Ward, Kawasaki, Kanagawa 212-0013, Japan",
                 description="神奈川県：川崎市産業振興会館 ４階 企画展示室",
-                sources=[Source("https://ketto.com/tvm/tvm2ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+                sources=[Source("https://ketto.com/tvm/tvm2ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlVwXdxIjrfvFiyJ2KYs6zF2Vr4h-gkwYSwJwH_Z7k5Xvtnady_rzRtxbdoK7bU9mns_02g3EudeVa1WPAQW5XK190IjSHADbO5_LFHPl8NKE1HaF5kIB5tbFWCCPZiR99ZjFeAyqC5QL8=s0?imgmax=0",
+                url="https://maps.app.goo.gl/2RDuG3XU69Put2Pt8",
+
             ),  
         ]
         event = Event(
@@ -149,9 +158,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3245.794139163642!2d139.7214917753278!3d35.55878603669134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601860f87f5da4e3%3A0x8a0493a2f4accfb0!2sOta%20City%20Industrial%20Plaza%20PiO!5e0!3m2!1sen!2sfr!4v1766760726321!5m2!1sen!2sfr",
+                coordinates=(35.5587817, 139.7240667),
+                address="1 Chome-20-20 Minamikamata, Ota City, Tokyo 144-0035, Japan",
                 description="大田区産業プラザPiO　1階　大展示ホール 1/3面",
-                sources=[Source("https://ketto.com/tvm/tvm3ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.OfficialExt))]
+                sources=[Source("https://ketto.com/tvm/tvm3ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.OfficialExt))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlSopXAxX4zYII19vbdI4rX0w5RiVyPdD_3T-rcKAI3NBfzD7cKS2HEXWrr_JXATLT3BXULla2lC3oHidDik9oIlyt_6fS4t9y2wbW_lLHAvuil4Cw0WsOtevHY2sumWk6a1Mp8Hg=s0?imgmax=0",
+                url="https://maps.app.goo.gl/mSxwaUchFHGpFwBf9",
             ),  
         ]
         event = Event(
@@ -184,9 +197,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3245.794139163642!2d139.7214917753278!3d35.55878603669134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601860f87f5da4e3%3A0x8a0493a2f4accfb0!2sOta%20City%20Industrial%20Plaza%20PiO!5e0!3m2!1sen!2sfr!4v1766760726321!5m2!1sen!2sfr",
+                coordinates=(35.5587817, 139.7240667),
+                address="1 Chome-20-20 Minamikamata, Ota City, Tokyo 144-0035, Japan",
                 description="大田区産業プラザPiO　1階　大展示ホール 1/2面",
-                sources=[Source("https://ketto.com/tvm/tvm4ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+                sources=[Source("https://ketto.com/tvm/tvm4ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlSopXAxX4zYII19vbdI4rX0w5RiVyPdD_3T-rcKAI3NBfzD7cKS2HEXWrr_JXATLT3BXULla2lC3oHidDik9oIlyt_6fS4t9y2wbW_lLHAvuil4Cw0WsOtevHY2sumWk6a1Mp8Hg=s0?imgmax=0",
+                url="https://maps.app.goo.gl/mSxwaUchFHGpFwBf9",
             ),  
         ]
         event = Event(
@@ -221,9 +238,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3245.794139163642!2d139.7214917753278!3d35.55878603669134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601860f87f5da4e3%3A0x8a0493a2f4accfb0!2sOta%20City%20Industrial%20Plaza%20PiO!5e0!3m2!1sen!2sfr!4v1766760726321!5m2!1sen!2sfr",
+                coordinates=(35.5587817, 139.7240667),
+                address="1 Chome-20-20 Minamikamata, Ota City, Tokyo 144-0035, Japan",
                 description="大田区産業プラザPiO　1階　大展示ホール 全面",
-                sources=[Source("https://ketto.com/tvm/tvm5ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+                sources=[Source("https://ketto.com/tvm/tvm5ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlSopXAxX4zYII19vbdI4rX0w5RiVyPdD_3T-rcKAI3NBfzD7cKS2HEXWrr_JXATLT3BXULla2lC3oHidDik9oIlyt_6fS4t9y2wbW_lLHAvuil4Cw0WsOtevHY2sumWk6a1Mp8Hg=s0?imgmax=0",
+                url="https://maps.app.goo.gl/mSxwaUchFHGpFwBf9",
             ),  
         ]
         event = Event(
@@ -258,9 +279,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3250.318557480467!2d139.64316731143288!3d35.44690717254969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60185cfc864754fd%3A0xedeb81e0799aefc2!2z5pel5pys44CB44CSMjMxLTAwMjMg56We5aWI5bed55yM5qiq5rWc5biC5Lit5Yy65bGx5LiL55S677yS!5e0!3m2!1sja!2sfr!4v1766762349057!5m2!1sja!2sfr",
+                coordinates=(35.4471499, 139.6432575),
+                address="2 Yamashitacho, Naka Ward, Yokohama, Kanagawa 231-0023, Japan",
                 description="横浜産貿ホール マリネリア",
-                sources=[Source("https://ketto.com/tvm/tvm6ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+                sources=[Source("https://ketto.com/tvm/tvm6ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl97Qz0xPY76gMUOCIcwM2VHb1vzxuS9I-gnQy-wg5TtCpeI32ga_Wpfdaj-wM9ap88GmSvNMIjYniPboM4NkEez0JnwzmdEQVMDbYx-odnTiw6L-NmIJB56i6cPNB6te_ta2LUYw=s0?imgmax=0",
+                url="https://maps.app.goo.gl/voDimmnVGDvJy3uR9",
             ),  
         ]
         event = Event(
@@ -295,9 +320,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.4781867159977!2d139.79620487533484!3d35.71445652814888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ec3d981d0f5%3A0x82b2ec9f4699aec6!2sTokyo%20Metropolitan%20Industrial%20Trade%20Center%20Taito%20Building!5e0!3m2!1sen!2sfr!4v1766762586915!5m2!1sen!2sfr",
+                coordinates=(35.7144522, 139.7962049),
+                address="2 Chome-6-5 Hanakawado, Taito City, Tokyo 111-0033, Japan",
                 description="都立産業貿易センター(台東館)７階",
-                sources=[Source("https://ketto.com/tvm/tvm7ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+                sources=[Source("https://ketto.com/tvm/tvm7ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnF1BBFvQVdyjgZoc28UeDD2yKGROhfEN6FVRm3259tqmw1XZdj8PmJk_wEQNETqej1KciT-LOrGKPB7mnXMtM4J3wX9oosS2ZAxIoIe0SjQQlIW98iB_bbC_9J80LkKLqO8enw7w=s0?imgmax=0",
+                url="https://maps.app.goo.gl/4z1s3CZHMCdk9PB9A",
             ),  
         ]
         event = Event(
@@ -332,9 +361,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3245.794139163642!2d139.7214917753278!3d35.55878603669134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601860f87f5da4e3%3A0x8a0493a2f4accfb0!2sOta%20City%20Industrial%20Plaza%20PiO!5e0!3m2!1sen!2sfr!4v1766760726321!5m2!1sen!2sfr",
+                coordinates=(35.5587817, 139.7240667),
+                address="1 Chome-20-20 Minamikamata, Ota City, Tokyo 144-0035, Japan",
                 description="大田区産業プラザPiO　1階　大展示ホール 全面",
-                sources=[Source("https://ketto.com/tvm/tvm8ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+                sources=[Source("https://ketto.com/tvm/tvm8ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlSopXAxX4zYII19vbdI4rX0w5RiVyPdD_3T-rcKAI3NBfzD7cKS2HEXWrr_JXATLT3BXULla2lC3oHidDik9oIlyt_6fS4t9y2wbW_lLHAvuil4Cw0WsOtevHY2sumWk6a1Mp8Hg=s0?imgmax=0",
+                url="https://maps.app.goo.gl/mSxwaUchFHGpFwBf9",
             ),  
         ]
         event = Event(
@@ -369,9 +402,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3245.794139163642!2d139.7214917753278!3d35.55878603669134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601860f87f5da4e3%3A0x8a0493a2f4accfb0!2sOta%20City%20Industrial%20Plaza%20PiO!5e0!3m2!1sen!2sfr!4v1766760726321!5m2!1sen!2sfr",
+                coordinates=(35.5587817, 139.7240667),
+                address="1 Chome-20-20 Minamikamata, Ota City, Tokyo 144-0035, Japan",
                 description="大田区産業プラザPiO　1階　大展示ホール 全面",
-                sources=[Source("https://ketto.com/tvm/tvm9ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+                sources=[Source("https://ketto.com/tvm/tvm9ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlSopXAxX4zYII19vbdI4rX0w5RiVyPdD_3T-rcKAI3NBfzD7cKS2HEXWrr_JXATLT3BXULla2lC3oHidDik9oIlyt_6fS4t9y2wbW_lLHAvuil4Cw0WsOtevHY2sumWk6a1Mp8Hg=s0?imgmax=0",
+                url="https://maps.app.goo.gl/mSxwaUchFHGpFwBf9",
             ),  
         ]
         event = Event(
@@ -406,9 +443,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.914586241518!2d139.7161255888549!3d35.72831910000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d121c16d9c1%3A0xf516d5df37b4b24d!2sSunshine%20City%20Exhibition%20Hall%20D!5e0!3m2!1sen!2sfr!4v1766768674758!5m2!1sen!2sfr",
+                coordinates=(35.7284509, 139.7180429),
+                address="Japan, 〒170-8630 Tokyo, Toshima City, Higashiikebukuro, 3 Chome−1−4 サンシャインシティ 青エリア",
                 description="サンシャインシティ文化会館2F展示ホールD-234",
-                sources=[Source("https://ketto.com/tvm/tvm10ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+                sources=[Source("https://ketto.com/tvm/tvm10ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlh79QV2PqUMK69IvfW9afI4WCFPZ4G5B6zUsqcdv05bWI0QsSbAhGHCM94alRNdrNYMGdRkIFQmInqUcyQj7PncjMI3AJIzK7Yb4lWYRZ-Jw1b6KbFi2-x6RlJQ5ExGwwSZEcaKw=s0?imgmax=0",
+                url="https://maps.app.goo.gl/W3NY9KfiAJQKQAdq7",
             ),  
         ]   
         event = Event(
@@ -446,9 +487,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3245.794139163642!2d139.7214917753278!3d35.55878603669134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601860f87f5da4e3%3A0x8a0493a2f4accfb0!2sOta%20City%20Industrial%20Plaza%20PiO!5e0!3m2!1sen!2sfr!4v1766760726321!5m2!1sen!2sfr",
+                coordinates=(35.5587817, 139.7240667),
+                address="1 Chome-20-20 Minamikamata, Ota City, Tokyo 144-0035, Japan",
                 description="大田区産業プラザPiO　1階　大展示ホール 全面",
-                sources=[Source("https://ketto.com/tvm/tvm11ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+                sources=[Source("https://ketto.com/tvm/tvm11ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlSopXAxX4zYII19vbdI4rX0w5RiVyPdD_3T-rcKAI3NBfzD7cKS2HEXWrr_JXATLT3BXULla2lC3oHidDik9oIlyt_6fS4t9y2wbW_lLHAvuil4Cw0WsOtevHY2sumWk6a1Mp8Hg=s0?imgmax=0",
+                url="https://maps.app.goo.gl/mSxwaUchFHGpFwBf9",
             ),  
         ]
         event = Event(
@@ -484,9 +529,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3245.794139163642!2d139.7214917753278!3d35.55878603669134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601860f87f5da4e3%3A0x8a0493a2f4accfb0!2sOta%20City%20Industrial%20Plaza%20PiO!5e0!3m2!1sen!2sfr!4v1766760726321!5m2!1sen!2sfr",
+                coordinates=(35.5587817, 139.7240667),
+                address="1 Chome-20-20 Minamikamata, Ota City, Tokyo 144-0035, Japan",
                 description="大田区産業プラザPiO　1階　大展示ホール 全面",
-                sources=[Source("https://ketto.com/tvm/tvm12ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+                sources=[Source("https://ketto.com/tvm/tvm12ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlSopXAxX4zYII19vbdI4rX0w5RiVyPdD_3T-rcKAI3NBfzD7cKS2HEXWrr_JXATLT3BXULla2lC3oHidDik9oIlyt_6fS4t9y2wbW_lLHAvuil4Cw0WsOtevHY2sumWk6a1Mp8Hg=s0?imgmax=0",
+                url="https://maps.app.goo.gl/mSxwaUchFHGpFwBf9",
             ),  
         ]
         event = Event(
@@ -521,9 +570,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3245.794139163642!2d139.7214917753278!3d35.55878603669134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601860f87f5da4e3%3A0x8a0493a2f4accfb0!2sOta%20City%20Industrial%20Plaza%20PiO!5e0!3m2!1sen!2sfr!4v1766760726321!5m2!1sen!2sfr",
+                coordinates=(35.5587817, 139.7240667),
+                address="1 Chome-20-20 Minamikamata, Ota City, Tokyo 144-0035, Japan",
                 description="PIO",
-                sources=[Source("https://ketto.com/tvm/tvm13ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+                sources=[Source("https://ketto.com/tvm/tvm13ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlSopXAxX4zYII19vbdI4rX0w5RiVyPdD_3T-rcKAI3NBfzD7cKS2HEXWrr_JXATLT3BXULla2lC3oHidDik9oIlyt_6fS4t9y2wbW_lLHAvuil4Cw0WsOtevHY2sumWk6a1Mp8Hg=s0?imgmax=0",
+                url="https://maps.app.goo.gl/mSxwaUchFHGpFwBf9",
             ),  
         ]
         event = Event(
@@ -558,9 +611,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.914586241518!2d139.7161255888549!3d35.72831910000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d121c16d9c1%3A0xf516d5df37b4b24d!2sSunshine%20City%20Exhibition%20Hall%20D!5e0!3m2!1sen!2sfr!4v1766768674758!5m2!1sen!2sfr",
+                coordinates=(35.728264, 139.7209429),
+                address="Japan, 〒170-0013 Tokyo, Toshima City, Higashiikebukuro, 3 Chome−1−4 Bunka Kaikan Bldg., 3F",
                 description="サンシャインシティ文化会館3F展示ホールC",
-                sources=[Source("https://ketto.com/tvm/tvm14ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+                sources=[Source("https://ketto.com/tvm/tvm14ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmSUcDNoS2R2rkuO5PxLmzdGrkwj8CIJIUxsWZPo5qjPkTcPSYEzOuRIOKG-QzGaNy9b9j0J7GPcOGw3zqTnvjt0A7hle_QuEEMg6Ivi1hX5bRR-zGGWcg6eKOdPoZiYKrqpfk=s0?imgmax=0",
+                url="https://maps.app.goo.gl/CEGDJS5XpnjvVRDq9",
             ),  
         ]
         event = Event(
@@ -595,9 +652,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.914586241518!2d139.7161255888549!3d35.72831910000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d121c16d9c1%3A0xf516d5df37b4b24d!2sSunshine%20City%20Exhibition%20Hall%20D!5e0!3m2!1sen!2sfr!4v1766768674758!5m2!1sen!2sfr",
+                coordinates=(35.7284164, 139.7180839),
+                address="Japan, 〒170-0013 Tokyo, Toshima City, Higashiikebukuro, 3 Chome−1−4 Bunka Kaikan Bldg., 2F",
                 description="サンシャインシティ文化会館2F展示ホールD",
-                sources=[Source("https://ketto.com/tvm/tvm15ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+                sources=[Source("https://ketto.com/tvm/tvm15ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlzx1v0NmgLMahOX5rB2GUzHXzi-dWZF64jxzAiPEm15ZE-gd9IR_iY-5NM2JrB2TjHkT2lEtkhPaSr-uf19CgkpZ48r6yeOcA7CzZwLujblB2Ht3ODdDAhuHivJ2UqWm8JN9r4UQ=w408-h272-k-no",
+                url="https://maps.app.goo.gl/PegjNyDWUFWR5PwS8",
             ),  
         ]
         event = Event(
@@ -632,9 +693,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.914586241518!2d139.7161255888549!3d35.72831910000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d121c16d9c1%3A0xf516d5df37b4b24d!2sSunshine%20City%20Exhibition%20Hall%20D!5e0!3m2!1sen!2sfr!4v1766768674758!5m2!1sen!2sfr",
+                coordinates=(35.7287189, 139.7199229),
+                address="Japan, 〒170-0013 Tokyo, Toshima City, Higashiikebukuro, 3 Chome−1−3 サンシャインシティ ワールドインポートマートビル 4F",
                 description="サンシャインシティ　ワールドインポートマート4階展示ホールA2・3",
-                sources=[Source("https://ketto.com/tvm/tvm16ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+                sources=[Source("https://ketto.com/tvm/tvm16ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlzx1v0NmgLMahOX5rB2GUzHXzi-dWZF64jxzAiPEm15ZE-gd9IR_iY-5NM2JrB2TjHkT2lEtkhPaSr-uf19CgkpZ48r6yeOcA7CzZwLujblB2Ht3ODdDAhuHivJ2UqWm8JN9r4UQ=w408-h272-k-no",
+                url="https://maps.app.goo.gl/S2cHa6SkbB86K7yS6",
             ),  
         ]
         event = Event(
@@ -669,9 +734,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.914586241518!2d139.7161255888549!3d35.72831910000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d121c16d9c1%3A0xf516d5df37b4b24d!2sSunshine%20City%20Exhibition%20Hall%20D!5e0!3m2!1sen!2sfr!4v1766768674758!5m2!1sen!2sfr",
+                coordinates=(35.7284509, 139.7180429),
+                address="Japan, 〒170-8630 Tokyo, Toshima City, Higashiikebukuro, 3 Chome−1−4 サンシャインシティ 青エリア",
                 description="サンシャインシティ　文化会館2F展示ホールD",
-                sources=[Source("https://ketto.com/tvm/tvm17ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+                sources=[Source("https://ketto.com/tvm/tvm17ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlh79QV2PqUMK69IvfW9afI4WCFPZ4G5B6zUsqcdv05bWI0QsSbAhGHCM94alRNdrNYMGdRkIFQmInqUcyQj7PncjMI3AJIzK7Yb4lWYRZ-Jw1b6KbFi2-x6RlJQ5ExGwwSZEcaKw=s0?imgmax=0",
+                url="https://maps.app.goo.gl/W3NY9KfiAJQKQAdq7"
             ),  
         ]
         event = Event(
@@ -706,9 +775,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.914586241518!2d139.7161255888549!3d35.72831910000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d121c16d9c1%3A0xf516d5df37b4b24d!2sSunshine%20City%20Exhibition%20Hall%20D!5e0!3m2!1sen!2sfr!4v1766768674758!5m2!1sen!2sfr",
+                coordinates=(35.7284509, 139.7180429),
+                address="Japan, 〒170-8630 Tokyo, Toshima City, Higashiikebukuro, 3 Chome−1−4 サンシャインシティ 青エリア",
                 description="サンシャインシティ  ワールドインポートマート4階展示ホールA2・3",
-                sources=[Source("https://ketto.com/tvm/tvm18ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+                sources=[Source("https://ketto.com/tvm/tvm18ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlh79QV2PqUMK69IvfW9afI4WCFPZ4G5B6zUsqcdv05bWI0QsSbAhGHCM94alRNdrNYMGdRkIFQmInqUcyQj7PncjMI3AJIzK7Yb4lWYRZ-Jw1b6KbFi2-x6RlJQ5ExGwwSZEcaKw=s0?imgmax=0",
+                url="https://maps.app.goo.gl/W3NY9KfiAJQKQAdq7"
             ),  
         ]
         event = Event(
@@ -743,9 +816,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.914586241518!2d139.7161255888549!3d35.72831910000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d121c16d9c1%3A0xf516d5df37b4b24d!2sSunshine%20City%20Exhibition%20Hall%20D!5e0!3m2!1sen!2sfr!4v1766768674758!5m2!1sen!2sfr",
+                coordinates=(35.7284509, 139.7180429),
+                address="Japan, 〒170-8630 Tokyo, Toshima City, Higashiikebukuro, 3 Chome−1−4 サンシャインシティ 青エリア",
                 description="サンシャインシティ  ワールドインポートマート4階展示ホールA2・3",
-                sources=[Source("https://ketto.com/tvm/tvm19ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+                sources=[Source("https://ketto.com/tvm/tvm19ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlh79QV2PqUMK69IvfW9afI4WCFPZ4G5B6zUsqcdv05bWI0QsSbAhGHCM94alRNdrNYMGdRkIFQmInqUcyQj7PncjMI3AJIzK7Yb4lWYRZ-Jw1b6KbFi2-x6RlJQ5ExGwwSZEcaKw=s0?imgmax=0",
+                url="https://maps.app.goo.gl/W3NY9KfiAJQKQAdq7"
             ),  
         ]
         event = Event(
@@ -788,9 +865,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.1900108045256!2d140.03295367533178!3d35.64768993181651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6022821fd52ebfdf%3A0xcec0c09c4bed45e0!2sMakuhari%20Messe!5e0!3m2!1sen!2sfr!4v1766770606094!5m2!1sen!2sfr",
+                coordinates=(35.6476856, 140.0329537),
+                address="2 Chome-1 Nakase, Mihama Ward, Chiba, 261-8550, Japan",
                 description="幕張メッセ",
-                sources=[Source("https://ketto.com/tvm/tvm20ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+                sources=[Source("https://ketto.com/tvm/tvm20ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlES5CPbqhYge4VPOdfFXqP8UJEGKjnoXhgnbdlK7-02Oefoc3H_gez6YUwRtN7P2ilkXR1lhse1I9lRd9Wnu4ApAgKhz_lZFl4GN2PxgsYiFmRvQhe8aRShyOuVbwQIvJQ6wWR=s0?imgmax=0",
+                url="https://maps.app.goo.gl/6Y3UmT26SxxpvsJT9",
             ),  
         ]
         event = Event(
@@ -827,9 +908,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.914586241518!2d139.7161255888549!3d35.72831910000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d121c16d9c1%3A0xf516d5df37b4b24d!2sSunshine%20City%20Exhibition%20Hall%20D!5e0!3m2!1sen!2sfr!4v1766768674758!5m2!1sen!2sfr",
+                coordinates=(35.7284509, 139.7180429),
+                address="Japan, 〒170-8630 Tokyo, Toshima City, Higashiikebukuro, 3 Chome−1−4 サンシャインシティ 青エリア",
                 description="サンシャインシティ  ワールドインポートマート4階展示ホールA1・2・3",
-                sources=[Source("https://ketto.com/tvm/tvm21ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+                sources=[Source("https://ketto.com/tvm/tvm21ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlh79QV2PqUMK69IvfW9afI4WCFPZ4G5B6zUsqcdv05bWI0QsSbAhGHCM94alRNdrNYMGdRkIFQmInqUcyQj7PncjMI3AJIzK7Yb4lWYRZ-Jw1b6KbFi2-x6RlJQ5ExGwwSZEcaKw=s0?imgmax=0",
+                url="https://maps.app.goo.gl/W3NY9KfiAJQKQAdq7"
             ),  
         ]
         event = Event(
@@ -864,9 +949,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12970.580425251434!2d139.7720709554199!3d35.636474600000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601889bfc2444add%3A0xd107706301e3e668!2sAriake%20Arena!5e0!3m2!1sen!2sfr!4v1766771035655!5m2!1sen!2sfr",
+                coordinates=(35.6433644, 139.7943083),
+                address="Japan, 〒135-0063 Tokyo, Koto City, Ariake, 1 Chome−11−1 アリーナ(サブ",
                 description="ディファ有明",
-                sources=[Source("https://ketto.com/tvm/tvm22ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+                sources=[Source("https://ketto.com/tvm/tvm22ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkvV6DAov_S213M1uJ1bNi4hwxq734U-8FzxQsi-bUCmHM_5hxnok7dgrkPQKZ9LA-WMfYEdf0nnzHtJ1cZOTS79eCcZf3bzUZTCsHaqccvGKP1vzsBNOBz_90jO-sfF5J4gmwNaQ=s0?imgmax=0",
+                url="https://maps.app.goo.gl/zCrfkXBECM6HqtAy6",
             ),  
         ]
         event = Event(
@@ -903,9 +992,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.914586241518!2d139.7161255888549!3d35.72831910000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d121c16d9c1%3A0xf516d5df37b4b24d!2sSunshine%20City%20Exhibition%20Hall%20D!5e0!3m2!1sen!2sfr!4v1766768674758!5m2!1sen!2sfr",
+                coordinates=(35.7284509, 139.7180429),
+                address="Japan, 〒170-8630 Tokyo, Toshima City, Higashiikebukuro, 3 Chome−1−4 サンシャインシティ 青エリア",
                 description="サンシャインシティ  ワールドインポートマート4階展示ホールA1・2・3",
-                sources=[Source("https://ketto.com/tvm/tvm23ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+                sources=[Source("https://ketto.com/tvm/tvm23ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlh79QV2PqUMK69IvfW9afI4WCFPZ4G5B6zUsqcdv05bWI0QsSbAhGHCM94alRNdrNYMGdRkIFQmInqUcyQj7PncjMI3AJIzK7Yb4lWYRZ-Jw1b6KbFi2-x6RlJQ5ExGwwSZEcaKw=s0?imgmax=0",
+                url="https://maps.app.goo.gl/W3NY9KfiAJQKQAdq7"
             ),  
         ]
         event = Event(
@@ -948,9 +1041,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.1900108045256!2d140.03295367533178!3d35.64768993181651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6022821fd52ebfdf%3A0xcec0c09c4bed45e0!2sMakuhari%20Messe!5e0!3m2!1sen!2sfr!4v1766770606094!5m2!1sen!2sfr",
+                coordinates=(35.6476856, 140.0329537),
+                address="2 Chome-1 Nakase, Mihama Ward, Chiba, 261-8550, Japan",
                 description="幕張メッセ",
-                sources=[Source("https://ketto.com/tvm/tvm20ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+                sources=[Source("https://ketto.com/tvm/tvm20ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlES5CPbqhYge4VPOdfFXqP8UJEGKjnoXhgnbdlK7-02Oefoc3H_gez6YUwRtN7P2ilkXR1lhse1I9lRd9Wnu4ApAgKhz_lZFl4GN2PxgsYiFmRvQhe8aRShyOuVbwQIvJQ6wWR=s0?imgmax=0",
+                url="https://maps.app.goo.gl/6Y3UmT26SxxpvsJT9",
             ),  
         ]
         event = Event(
@@ -987,9 +1084,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.914586241518!2d139.7161255888549!3d35.72831910000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d121c16d9c1%3A0xf516d5df37b4b24d!2sSunshine%20City%20Exhibition%20Hall%20D!5e0!3m2!1sen!2sfr!4v1766768674758!5m2!1sen!2sfr",
+                coordinates=(35.7284509, 139.7180429),
+                address="Japan, 〒170-8630 Tokyo, Toshima City, Higashiikebukuro, 3 Chome−1−4 サンシャインシティ 青エリア",
                 description="サンシャインシティ  ワールドインポートマート4階展示ホールA1・2・3",
-                sources=[Source("https://ketto.com/tvm/tvm25ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+                sources=[Source("https://ketto.com/tvm/tvm25ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlh79QV2PqUMK69IvfW9afI4WCFPZ4G5B6zUsqcdv05bWI0QsSbAhGHCM94alRNdrNYMGdRkIFQmInqUcyQj7PncjMI3AJIzK7Yb4lWYRZ-Jw1b6KbFi2-x6RlJQ5ExGwwSZEcaKw=s0?imgmax=0",
+                url="https://maps.app.goo.gl/W3NY9KfiAJQKQAdq7"
             ),  
         ]
         event = Event(
@@ -1024,9 +1125,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12970.580425251434!2d139.7720709554199!3d35.636474600000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601889bfc2444add%3A0xd107706301e3e668!2sAriake%20Arena!5e0!3m2!1sen!2sfr!4v1766771035655!5m2!1sen!2sfr",
+                coordinates=(35.6433644, 139.7943083),
+                address="Japan, 〒135-0063 Tokyo, Koto City, Ariake, 1 Chome−11−1 アリーナ(サブ",
                 description="ディファ有明",
-                sources=[Source("https://ketto.com/tvm/tvm26ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+                sources=[Source("https://ketto.com/tvm/tvm26ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkvV6DAov_S213M1uJ1bNi4hwxq734U-8FzxQsi-bUCmHM_5hxnok7dgrkPQKZ9LA-WMfYEdf0nnzHtJ1cZOTS79eCcZf3bzUZTCsHaqccvGKP1vzsBNOBz_90jO-sfF5J4gmwNaQ=s0?imgmax=0",
+                url="https://maps.app.goo.gl/zCrfkXBECM6HqtAy6",
             ),  
         ]
         event = Event(
@@ -1063,9 +1168,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.914586241518!2d139.7161255888549!3d35.72831910000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d121c16d9c1%3A0xf516d5df37b4b24d!2sSunshine%20City%20Exhibition%20Hall%20D!5e0!3m2!1sen!2sfr!4v1766768674758!5m2!1sen!2sfr",
+                coordinates=(35.7284509, 139.7180429),
+                address="Japan, 〒170-8630 Tokyo, Toshima City, Higashiikebukuro, 3 Chome−1−4 サンシャインシティ 青エリア",
                 description="サンシャインシティ  文化会館2F 展示ホールD",
-                sources=[Source("https://ketto.com/tvm/tvm27ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+                sources=[Source("https://ketto.com/tvm/tvm27ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlh79QV2PqUMK69IvfW9afI4WCFPZ4G5B6zUsqcdv05bWI0QsSbAhGHCM94alRNdrNYMGdRkIFQmInqUcyQj7PncjMI3AJIzK7Yb4lWYRZ-Jw1b6KbFi2-x6RlJQ5ExGwwSZEcaKw=s0?imgmax=0",
+                url="https://maps.app.goo.gl/W3NY9KfiAJQKQAdq7"
             ),  
         ]
         event = Event(
@@ -1106,9 +1215,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.1900108045256!2d140.03295367533178!3d35.64768993181651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6022821fd52ebfdf%3A0xcec0c09c4bed45e0!2sMakuhari%20Messe!5e0!3m2!1sen!2sfr!4v1766770606094!5m2!1sen!2sfr",
+                coordinates=(35.6476856, 140.0329537),
+                address="2 Chome-1 Nakase, Mihama Ward, Chiba, 261-8550, Japan",
                 description="幕張メッセ",
-                sources=[Source("https://ketto.com/tvm/tvm28ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+                sources=[Source("https://ketto.com/tvm/tvm28ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlES5CPbqhYge4VPOdfFXqP8UJEGKjnoXhgnbdlK7-02Oefoc3H_gez6YUwRtN7P2ilkXR1lhse1I9lRd9Wnu4ApAgKhz_lZFl4GN2PxgsYiFmRvQhe8aRShyOuVbwQIvJQ6wWR=s0?imgmax=0",
+                url="https://maps.app.goo.gl/6Y3UmT26SxxpvsJT9",
             ),  
         ]
         event = Event(
@@ -1146,9 +1259,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.914586241518!2d139.7161255888549!3d35.72831910000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d121c16d9c1%3A0xf516d5df37b4b24d!2sSunshine%20City%20Exhibition%20Hall%20D!5e0!3m2!1sen!2sfr!4v1766768674758!5m2!1sen!2sfr",
+                coordinates=(35.7284509, 139.7180429),
+                address="Japan, 〒170-8630 Tokyo, Toshima City, Higashiikebukuro, 3 Chome−1−4 サンシャインシティ 青エリア",
                 description="サンシャインシティ  ワールドインポートマート4階展示ホールA2・3",
-                sources=[Source("https://ketto.com/tvm/tvm29ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+                sources=[Source("https://ketto.com/tvm/tvm29ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlh79QV2PqUMK69IvfW9afI4WCFPZ4G5B6zUsqcdv05bWI0QsSbAhGHCM94alRNdrNYMGdRkIFQmInqUcyQj7PncjMI3AJIzK7Yb4lWYRZ-Jw1b6KbFi2-x6RlJQ5ExGwwSZEcaKw=s0?imgmax=0",
+                url="https://maps.app.goo.gl/W3NY9KfiAJQKQAdq7"
             ),  
         ]
         event = Event(
@@ -1184,9 +1301,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.914586241518!2d139.7161255888549!3d35.72831910000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d121c16d9c1%3A0xf516d5df37b4b24d!2sSunshine%20City%20Exhibition%20Hall%20D!5e0!3m2!1sen!2sfr!4v1766768674758!5m2!1sen!2sfr",
+                coordinates=(35.7284509, 139.7180429),
+                address="Japan, 〒170-8630 Tokyo, Toshima City, Higashiikebukuro, 3 Chome−1−4 サンシャインシティ 青エリア",
                 description="サンシャインシティ  文化会館2F 展示ホールD",
-                sources=[Source("https://ketto.com/tvm/tvm30ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+                sources=[Source("https://ketto.com/tvm/tvm30ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlh79QV2PqUMK69IvfW9afI4WCFPZ4G5B6zUsqcdv05bWI0QsSbAhGHCM94alRNdrNYMGdRkIFQmInqUcyQj7PncjMI3AJIzK7Yb4lWYRZ-Jw1b6KbFi2-x6RlJQ5ExGwwSZEcaKw=s0?imgmax=0",
+                url="https://maps.app.goo.gl/W3NY9KfiAJQKQAdq7"
             ),  
         ]
         event = Event(
@@ -1226,9 +1347,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.1900108045256!2d140.03295367533178!3d35.64768993181651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6022821fd52ebfdf%3A0xcec0c09c4bed45e0!2sMakuhari%20Messe!5e0!3m2!1sen!2sfr!4v1766770606094!5m2!1sen!2sfr",
+                coordinates=(35.6476856, 140.0329537),
+                address="2 Chome-1 Nakase, Mihama Ward, Chiba, 261-8550, Japan",
                 description="幕張メッセ",
-                sources=[Source("https://ketto.com/tvm/tvm31ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+                sources=[Source("https://ketto.com/tvm/tvm31ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlES5CPbqhYge4VPOdfFXqP8UJEGKjnoXhgnbdlK7-02Oefoc3H_gez6YUwRtN7P2ilkXR1lhse1I9lRd9Wnu4ApAgKhz_lZFl4GN2PxgsYiFmRvQhe8aRShyOuVbwQIvJQ6wWR=s0?imgmax=0",
+                url="https://maps.app.goo.gl/6Y3UmT26SxxpvsJT9",
             ),  
         ]
         event = Event(
@@ -1266,9 +1391,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.914586241518!2d139.7161255888549!3d35.72831910000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d121c16d9c1%3A0xf516d5df37b4b24d!2sSunshine%20City%20Exhibition%20Hall%20D!5e0!3m2!1sen!2sfr!4v1766768674758!5m2!1sen!2sfr",
+                coordinates=(35.7284509, 139.7180429),
+                address="Japan, 〒170-8630 Tokyo, Toshima City, Higashiikebukuro, 3 Chome−1−4 サンシャインシティ 青エリア",
                 description="サンシャインシティ  ワールドインポートマート4階展示ホールA2・3",
-                sources=[Source("https://ketto.com/tvm/tvm32ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+                sources=[Source("https://ketto.com/tvm/tvm32ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlh79QV2PqUMK69IvfW9afI4WCFPZ4G5B6zUsqcdv05bWI0QsSbAhGHCM94alRNdrNYMGdRkIFQmInqUcyQj7PncjMI3AJIzK7Yb4lWYRZ-Jw1b6KbFi2-x6RlJQ5ExGwwSZEcaKw=s0?imgmax=0",
+                url="https://maps.app.goo.gl/W3NY9KfiAJQKQAdq7"
             ),  
         ]
         event = Event(
@@ -1304,9 +1433,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.914586241518!2d139.7161255888549!3d35.72831910000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d121c16d9c1%3A0xf516d5df37b4b24d!2sSunshine%20City%20Exhibition%20Hall%20D!5e0!3m2!1sen!2sfr!4v1766768674758!5m2!1sen!2sfr",
+                coordinates=(35.7284509, 139.7180429),
+                address="Japan, 〒170-8630 Tokyo, Toshima City, Higashiikebukuro, 3 Chome−1−4 サンシャインシティ 青エリア",
                 description="サンシャインシティ　文化会館2F　展示ホールD",
-                sources=[Source("https://ketto.com/tvm/tvm33ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+                sources=[Source("https://ketto.com/tvm/tvm33ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlh79QV2PqUMK69IvfW9afI4WCFPZ4G5B6zUsqcdv05bWI0QsSbAhGHCM94alRNdrNYMGdRkIFQmInqUcyQj7PncjMI3AJIzK7Yb4lWYRZ-Jw1b6KbFi2-x6RlJQ5ExGwwSZEcaKw=s0?imgmax=0",
+                url="https://maps.app.goo.gl/W3NY9KfiAJQKQAdq7"
             ),  
         ]
         event = Event(
@@ -1343,9 +1476,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.1900108045256!2d140.03295367533178!3d35.64768993181651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6022821fd52ebfdf%3A0xcec0c09c4bed45e0!2sMakuhari%20Messe!5e0!3m2!1sen!2sfr!4v1766770606094!5m2!1sen!2sfr",
+                coordinates=(35.6476856, 140.0329537),
+                address="2 Chome-1 Nakase, Mihama Ward, Chiba, 261-8550, Japan",
                 description="幕張メッセ",
-                sources=[Source("https://ketto.com/tvm/tvm34ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+                sources=[Source("https://ketto.com/tvm/tvm34ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlES5CPbqhYge4VPOdfFXqP8UJEGKjnoXhgnbdlK7-02Oefoc3H_gez6YUwRtN7P2ilkXR1lhse1I9lRd9Wnu4ApAgKhz_lZFl4GN2PxgsYiFmRvQhe8aRShyOuVbwQIvJQ6wWR=s0?imgmax=0",
+                url="https://maps.app.goo.gl/6Y3UmT26SxxpvsJT9",
             ),  
         ]
         event = Event(
@@ -1383,9 +1520,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.914586241518!2d139.7161255888549!3d35.72831910000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d121c16d9c1%3A0xf516d5df37b4b24d!2sSunshine%20City%20Exhibition%20Hall%20D!5e0!3m2!1sen!2sfr!4v1766768674758!5m2!1sen!2sfr",
+                coordinates=(35.7284509, 139.7180429),
+                address="Japan, 〒170-8630 Tokyo, Toshima City, Higashiikebukuro, 3 Chome−1−4 サンシャインシティ 青エリア",
                 description="サンシャインシティ  ワールドインポートマート4階展示ホールA1",
-                sources=[Source("https://ketto.com/tvm/tvm35ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+                sources=[Source("https://ketto.com/tvm/tvm35ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlh79QV2PqUMK69IvfW9afI4WCFPZ4G5B6zUsqcdv05bWI0QsSbAhGHCM94alRNdrNYMGdRkIFQmInqUcyQj7PncjMI3AJIzK7Yb4lWYRZ-Jw1b6KbFi2-x6RlJQ5ExGwwSZEcaKw=s0?imgmax=0",
+                url="https://maps.app.goo.gl/W3NY9KfiAJQKQAdq7"
             ),  
         ]
         event = Event(
@@ -1421,9 +1562,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3245.794139163642!2d139.7214917753278!3d35.55878603669134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601860f87f5da4e3%3A0x8a0493a2f4accfb0!2sOta%20City%20Industrial%20Plaza%20PiO!5e0!3m2!1sen!2sfr!4v1766760726321!5m2!1sen!2sfr",
+                coordinates=(35.5587817, 139.7240667),
+                address="1 Chome-20-20 Minamikamata, Ota City, Tokyo 144-0035, Japan",
                 description="大田区産業プラザPiO１階大展示ホール",
-                sources=[Source("https://ketto.com/tvm/tvm36ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.OfficialExt))]
+                sources=[Source("https://ketto.com/tvm/tvm36ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.OfficialExt))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlSopXAxX4zYII19vbdI4rX0w5RiVyPdD_3T-rcKAI3NBfzD7cKS2HEXWrr_JXATLT3BXULla2lC3oHidDik9oIlyt_6fS4t9y2wbW_lLHAvuil4Cw0WsOtevHY2sumWk6a1Mp8Hg=s0?imgmax=0",
+                url="https://maps.app.goo.gl/mSxwaUchFHGpFwBf9",
             ),  
         ]
         event = Event(
@@ -1461,9 +1606,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.1900108045256!2d140.03295367533178!3d35.64768993181651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6022821fd52ebfdf%3A0xcec0c09c4bed45e0!2sMakuhari%20Messe!5e0!3m2!1sen!2sfr!4v1766770606094!5m2!1sen!2sfr",
+                coordinates=(35.6476856, 140.0329537),
+                address="2 Chome-1 Nakase, Mihama Ward, Chiba, 261-8550, Japan",
                 description="幕張メッセ",
-                sources=[Source("https://ketto.com/tvm/tvm37ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+                sources=[Source("https://ketto.com/tvm/tvm37ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlES5CPbqhYge4VPOdfFXqP8UJEGKjnoXhgnbdlK7-02Oefoc3H_gez6YUwRtN7P2ilkXR1lhse1I9lRd9Wnu4ApAgKhz_lZFl4GN2PxgsYiFmRvQhe8aRShyOuVbwQIvJQ6wWR=s0?imgmax=0",
+                url="https://maps.app.goo.gl/6Y3UmT26SxxpvsJT9",
             ),  
         ]
         event = Event(
@@ -1495,9 +1644,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.914586241518!2d139.7161255888549!3d35.72831910000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d121c16d9c1%3A0xf516d5df37b4b24d!2sSunshine%20City%20Exhibition%20Hall%20D!5e0!3m2!1sen!2sfr!4v1766768674758!5m2!1sen!2sfr",
+                coordinates=(35.7284509, 139.7180429),
+                address="Japan, 〒170-8630 Tokyo, Toshima City, Higashiikebukuro, 3 Chome−1−4 サンシャインシティ 青エリア",
                 description="サンシャインシティ  ワールドインポートマート4階展示ホールA1",
-                sources=[Source("https://ketto.com/tvm/tvm38ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+                sources=[Source("https://ketto.com/tvm/tvm38ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlh79QV2PqUMK69IvfW9afI4WCFPZ4G5B6zUsqcdv05bWI0QsSbAhGHCM94alRNdrNYMGdRkIFQmInqUcyQj7PncjMI3AJIzK7Yb4lWYRZ-Jw1b6KbFi2-x6RlJQ5ExGwwSZEcaKw=s0?imgmax=0",
+                url="https://maps.app.goo.gl/W3NY9KfiAJQKQAdq7"
             ),  
         ]
         event = Event(
@@ -1533,9 +1686,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.1900108045256!2d140.03295367533178!3d35.64768993181651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6022821fd52ebfdf%3A0xcec0c09c4bed45e0!2sMakuhari%20Messe!5e0!3m2!1sen!2sfr!4v1766770606094!5m2!1sen!2sfr",
+                coordinates=(35.6476856, 140.0329537),
+                address="2 Chome-1 Nakase, Mihama Ward, Chiba, 261-8550, Japan",
                 description="幕張メッセ",
-                sources=[Source("https://ketto.com/tvm/tvm39ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+                sources=[Source("https://ketto.com/tvm/tvm39ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlES5CPbqhYge4VPOdfFXqP8UJEGKjnoXhgnbdlK7-02Oefoc3H_gez6YUwRtN7P2ilkXR1lhse1I9lRd9Wnu4ApAgKhz_lZFl4GN2PxgsYiFmRvQhe8aRShyOuVbwQIvJQ6wWR=s0?imgmax=0",
+                url="https://maps.app.goo.gl/6Y3UmT26SxxpvsJT9",
             ),  
         ]
         event = Event(
@@ -1569,9 +1726,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.914586241518!2d139.7161255888549!3d35.72831910000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d121c16d9c1%3A0xf516d5df37b4b24d!2sSunshine%20City%20Exhibition%20Hall%20D!5e0!3m2!1sen!2sfr!4v1766768674758!5m2!1sen!2sfr",
+                coordinates=(35.7284509, 139.7180429),
+                address="Japan, 〒170-8630 Tokyo, Toshima City, Higashiikebukuro, 3 Chome−1−4 サンシャインシティ 青エリア",
                 description="サンシャインシティ文化会館2階 展示ホールD",
-                sources=[Source("https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm40", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+                sources=[Source("https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm40", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlh79QV2PqUMK69IvfW9afI4WCFPZ4G5B6zUsqcdv05bWI0QsSbAhGHCM94alRNdrNYMGdRkIFQmInqUcyQj7PncjMI3AJIzK7Yb4lWYRZ-Jw1b6KbFi2-x6RlJQ5ExGwwSZEcaKw=s0?imgmax=0",
+                url="https://maps.app.goo.gl/W3NY9KfiAJQKQAdq7"
             ),  
         ]
         event = Event(
@@ -1606,9 +1767,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.914586241518!2d139.7161255888549!3d35.72831910000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d121c16d9c1%3A0xf516d5df37b4b24d!2sSunshine%20City%20Exhibition%20Hall%20D!5e0!3m2!1sen!2sfr!4v1766768674758!5m2!1sen!2sfr",
+                coordinates=(35.7284509, 139.7180429),
+                address="Japan, 〒170-8630 Tokyo, Toshima City, Higashiikebukuro, 3 Chome−1−4 サンシャインシティ 青エリア",
                 description="サンシャインシティ文化会館2階 展示ホールD",
-                sources=[Source("https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm41", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+                sources=[Source("https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm41", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlh79QV2PqUMK69IvfW9afI4WCFPZ4G5B6zUsqcdv05bWI0QsSbAhGHCM94alRNdrNYMGdRkIFQmInqUcyQj7PncjMI3AJIzK7Yb4lWYRZ-Jw1b6KbFi2-x6RlJQ5ExGwwSZEcaKw=s0?imgmax=0",
+                url="https://maps.app.goo.gl/W3NY9KfiAJQKQAdq7"
             ),  
         ]
         event = Event(
@@ -1643,9 +1808,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.1900108045256!2d140.03295367533178!3d35.64768993181651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6022821fd52ebfdf%3A0xcec0c09c4bed45e0!2sMakuhari%20Messe!5e0!3m2!1sen!2sfr!4v1766770606094!5m2!1sen!2sfr",
+                coordinates=(35.6476856, 140.0329537),
+                address="2 Chome-1 Nakase, Mihama Ward, Chiba, 261-8550, Japan",
                 description="幕張メッセ",
-                sources=[Source("https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm42", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+                sources=[Source("https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm42", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlES5CPbqhYge4VPOdfFXqP8UJEGKjnoXhgnbdlK7-02Oefoc3H_gez6YUwRtN7P2ilkXR1lhse1I9lRd9Wnu4ApAgKhz_lZFl4GN2PxgsYiFmRvQhe8aRShyOuVbwQIvJQ6wWR=s0?imgmax=0",
+                url="https://maps.app.goo.gl/6Y3UmT26SxxpvsJT9",
             ),  
         ]
         event = Event(
@@ -1682,9 +1851,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.914586241518!2d139.7161255888549!3d35.72831910000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d121c16d9c1%3A0xf516d5df37b4b24d!2sSunshine%20City%20Exhibition%20Hall%20D!5e0!3m2!1sen!2sfr!4v1766768674758!5m2!1sen!2sfr",
+                coordinates=(35.7284509, 139.7180429),
+                address="Japan, 〒170-8630 Tokyo, Toshima City, Higashiikebukuro, 3 Chome−1−4 サンシャインシティ 青エリア",
                 description="サンシャインシティ文化会館2階 展示ホールD",
-                sources=[Source("https://web.archive.org/web/20251226180416/https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm43", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+                sources=[Source("https://web.archive.org/web/20251226180416/https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm43", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlh79QV2PqUMK69IvfW9afI4WCFPZ4G5B6zUsqcdv05bWI0QsSbAhGHCM94alRNdrNYMGdRkIFQmInqUcyQj7PncjMI3AJIzK7Yb4lWYRZ-Jw1b6KbFi2-x6RlJQ5ExGwwSZEcaKw=s0?imgmax=0",
+                url="https://maps.app.goo.gl/W3NY9KfiAJQKQAdq7"
             ),  
         ]
         event = Event(
@@ -1719,9 +1892,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.1900108045256!2d140.03295367533178!3d35.64768993181651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6022821fd52ebfdf%3A0xcec0c09c4bed45e0!2sMakuhari%20Messe!5e0!3m2!1sen!2sfr!4v1766770606094!5m2!1sen!2sfr",
+                coordinates=(35.6476856, 140.0329537),
+                address="2 Chome-1 Nakase, Mihama Ward, Chiba, 261-8550, Japan",
                 description="幕張メッセ",
-                sources=[Source("https://web.archive.org/web/20200325102937/https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm44", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+                sources=[Source("https://web.archive.org/web/20200325102937/https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm44", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlES5CPbqhYge4VPOdfFXqP8UJEGKjnoXhgnbdlK7-02Oefoc3H_gez6YUwRtN7P2ilkXR1lhse1I9lRd9Wnu4ApAgKhz_lZFl4GN2PxgsYiFmRvQhe8aRShyOuVbwQIvJQ6wWR=s0?imgmax=0",
+                url="https://maps.app.goo.gl/6Y3UmT26SxxpvsJT9",
             ),  
         ]
         event = Event(
@@ -1758,9 +1935,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.914586241518!2d139.7161255888549!3d35.72831910000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d121c16d9c1%3A0xf516d5df37b4b24d!2sSunshine%20City%20Exhibition%20Hall%20D!5e0!3m2!1sen!2sfr!4v1766768674758!5m2!1sen!2sfr",
+                coordinates=(35.7284509, 139.7180429),
+                address="Japan, 〒170-8630 Tokyo, Toshima City, Higashiikebukuro, 3 Chome−1−4 サンシャインシティ 青エリア",
                 description="サンシャインシティ文化会館2階 展示ホールD",
-                sources=[Source("https://web.archive.org/web/20250415182928/https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm45", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+                sources=[Source("https://web.archive.org/web/20250415182928/https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm45", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlh79QV2PqUMK69IvfW9afI4WCFPZ4G5B6zUsqcdv05bWI0QsSbAhGHCM94alRNdrNYMGdRkIFQmInqUcyQj7PncjMI3AJIzK7Yb4lWYRZ-Jw1b6KbFi2-x6RlJQ5ExGwwSZEcaKw=s0?imgmax=0",
+                url="https://maps.app.goo.gl/W3NY9KfiAJQKQAdq7"
             ),  
         ]
         event = Event(
@@ -1795,9 +1976,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3245.794139163642!2d139.7214917753278!3d35.55878603669134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601860f87f5da4e3%3A0x8a0493a2f4accfb0!2sOta%20City%20Industrial%20Plaza%20PiO!5e0!3m2!1sen!2sfr!4v1766760726321!5m2!1sen!2sfr",
+                coordinates=(35.5587817, 139.7240667),
+                address="1 Chome-20-20 Minamikamata, Ota City, Tokyo 144-0035, Japan",
                 description="大田区産業プラザPiO 1F大展示ホール",
-                sources=[Source("https://web.archive.org/web/20251228112051/https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm46", (ReliabilityTypes.Reliable, OriginTypes.OfficialExt))]
+                sources=[Source("https://web.archive.org/web/20251228112051/https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm46", (ReliabilityTypes.Reliable, OriginTypes.OfficialExt))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlSopXAxX4zYII19vbdI4rX0w5RiVyPdD_3T-rcKAI3NBfzD7cKS2HEXWrr_JXATLT3BXULla2lC3oHidDik9oIlyt_6fS4t9y2wbW_lLHAvuil4Cw0WsOtevHY2sumWk6a1Mp8Hg=s0?imgmax=0",
+                url="https://maps.app.goo.gl/mSxwaUchFHGpFwBf9",
             ),  
         ]
         event = Event(
@@ -1833,9 +2018,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3245.794139163642!2d139.7214917753278!3d35.55878603669134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601860f87f5da4e3%3A0x8a0493a2f4accfb0!2sOta%20City%20Industrial%20Plaza%20PiO!5e0!3m2!1sen!2sfr!4v1766760726321!5m2!1sen!2sfr",
+                coordinates=(35.5587817, 139.7240667),
+                address="1 Chome-20-20 Minamikamata, Ota City, Tokyo 144-0035, Japan",
                 description="大田区産業プラザPiO 1F大展示ホール",
-                sources=[Source("https://web.archive.org/web/20251228112614/https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm47", (ReliabilityTypes.Reliable, OriginTypes.OfficialExt))]
+                sources=[Source("https://web.archive.org/web/20251228112614/https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm47", (ReliabilityTypes.Reliable, OriginTypes.OfficialExt))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlSopXAxX4zYII19vbdI4rX0w5RiVyPdD_3T-rcKAI3NBfzD7cKS2HEXWrr_JXATLT3BXULla2lC3oHidDik9oIlyt_6fS4t9y2wbW_lLHAvuil4Cw0WsOtevHY2sumWk6a1Mp8Hg=s0?imgmax=0",
+                url="https://maps.app.goo.gl/mSxwaUchFHGpFwBf9",
             ),  
         ]
         event = Event(
@@ -1872,9 +2061,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.1900108045256!2d140.03295367533178!3d35.64768993181651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6022821fd52ebfdf%3A0xcec0c09c4bed45e0!2sMakuhari%20Messe!5e0!3m2!1sen!2sfr!4v1766770606094!5m2!1sen!2sfr",
+                coordinates=(35.6476856, 140.0329537),
+                address="2 Chome-1 Nakase, Mihama Ward, Chiba, 261-8550, Japan",
                 description="幕張メッセ",
-                sources=[Source("https://web.archive.org/web/20251228113000/https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm48", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+                sources=[Source("https://web.archive.org/web/20251228113000/https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm48", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlES5CPbqhYge4VPOdfFXqP8UJEGKjnoXhgnbdlK7-02Oefoc3H_gez6YUwRtN7P2ilkXR1lhse1I9lRd9Wnu4ApAgKhz_lZFl4GN2PxgsYiFmRvQhe8aRShyOuVbwQIvJQ6wWR=s0?imgmax=0",
+                url="https://maps.app.goo.gl/6Y3UmT26SxxpvsJT9",
             ),  
         ]
         event = Event(
@@ -1911,9 +2104,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1622.4614245873063!2d139.74702373866853!3d35.58029602459979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601861bc691ff473%3A0x3c65b91947c29bba!2sTRC%20First%20Exhibition%20Hall!5e0!3m2!1sen!2sfr!4v1766790392057!5m2!1sen!2sfr",
+                coordinates=(35.5808204, 139.748996),
+                address="１F, 6 Chome-1-1 Heiwajima, Ota City, Tokyo 143-0006, Japan",
                 description="TRC東京流通センター第一展示場ABホール ",
-                sources=[Source("https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm49", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+                sources=[Source("https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm49", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlXZxrT3HOAPZXqXqjSNUheErA2NbgUEaveohlKkJoKdJ-7gGeV5I-33-fz9QGAfH9ipV_ukUkxEpmbEc9nrVi3hxnZC6Vh-Vihs_WSHnT0Zf3Eruhe4oClHJtWN0Tj-oQ96Bzz=s0?imgmax=0",
+                url="https://maps.app.goo.gl/4nuorPZFReePsUq47",
             ),  
         ]
         event = Event(
@@ -1948,10 +2145,14 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.8217084738917!2d139.33816588885495!3d35.6567641!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60191ddd90908ea1%3A0x34e81277b2818321!2sTokyo%20Tama%20Mirai%20Messe%20Exhibition%20Room%20C%2FD!5e0!3m2!1sen!2sfr!4v1766788127368!5m2!1sen!2sfr",
+                coordinates=(35.6570229, 139.3427185),
+                address="3 Chome-19-2 Myojincho, Hachioji, Tokyo 192-0046, Japan",
                 description="東京たま未来メッセ全展示室",
-                sources=[Source("https://web.archive.org/web/20230113142557/https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm50", (ReliabilityTypes.Reliable, OriginTypes.Official))]
-            ),  
+                sources=[Source("https://web.archive.org/web/20230113142557/https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm50", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkxsQpEWZFwb4XqGrwkktcN8NBO1KUuNPft8IdYpKvmh497x8epoQb6GaN_0bDnz5N1J51AWRKXgjB9G9Yvmc1KnqBxKiRxPaKwJ61FrmBw_PNBxAcYIe_Kp4267kuHH1z1osm_tn_At0Ta=s870-k-no",
+                url="https://maps.app.goo.gl/BMagzMitSe89GSC99",
+            ),
         ]
         event = Event(
             aliases=["THE VOC＠LOiD M＠STER 50", "ボーマス50", "VOM@S50"],
@@ -1989,9 +2190,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.1900108045256!2d140.03295367533178!3d35.64768993181651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6022821fd52ebfdf%3A0xcec0c09c4bed45e0!2sMakuhari%20Messe!5e0!3m2!1sen!2sfr!4v1766770606094!5m2!1sen!2sfr",
+                coordinates=(35.6476856, 140.0329537),
+                address="2 Chome-1 Nakase, Mihama Ward, Chiba, 261-8550, Japan",
                 description="幕張メッセ",
-                sources=[Source("https://ketto.com/tvm/tvm20ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+                sources=[Source("https://ketto.com/tvm/tvm20ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlES5CPbqhYge4VPOdfFXqP8UJEGKjnoXhgnbdlK7-02Oefoc3H_gez6YUwRtN7P2ilkXR1lhse1I9lRd9Wnu4ApAgKhz_lZFl4GN2PxgsYiFmRvQhe8aRShyOuVbwQIvJQ6wWR=s0?imgmax=0",
+                url="https://maps.app.goo.gl/6Y3UmT26SxxpvsJT9",
             ),  
         ]
         event = Event(
@@ -2024,9 +2229,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3245.794139163642!2d139.7214917753278!3d35.55878603669134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601860f87f5da4e3%3A0x8a0493a2f4accfb0!2sOta%20City%20Industrial%20Plaza%20PiO!5e0!3m2!1sen!2sfr!4v1766760726321!5m2!1sen!2sfr",
+                coordinates=(35.5587817, 139.7240667),
+                address="1 Chome-20-20 Minamikamata, Ota City, Tokyo 144-0035, Japan",
                 description="大田区産業プラザPiO 1F大展示ホール",
-                sources=[Source("https://web.archive.org/web/20230619084605/https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm52", (ReliabilityTypes.Reliable, OriginTypes.OfficialExt))]
+                sources=[Source("https://web.archive.org/web/20230619084605/https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm52", (ReliabilityTypes.Reliable, OriginTypes.OfficialExt))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlSopXAxX4zYII19vbdI4rX0w5RiVyPdD_3T-rcKAI3NBfzD7cKS2HEXWrr_JXATLT3BXULla2lC3oHidDik9oIlyt_6fS4t9y2wbW_lLHAvuil4Cw0WsOtevHY2sumWk6a1Mp8Hg=s0?imgmax=0",
+                url="https://maps.app.goo.gl/mSxwaUchFHGpFwBf9",
             ),  
         ]
         event = Event(
@@ -2059,9 +2268,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3245.794139163642!2d139.7214917753278!3d35.55878603669134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601860f87f5da4e3%3A0x8a0493a2f4accfb0!2sOta%20City%20Industrial%20Plaza%20PiO!5e0!3m2!1sen!2sfr!4v1766760726321!5m2!1sen!2sfr",
+                coordinates=(35.5587817, 139.7240667),
+                address="1 Chome-20-20 Minamikamata, Ota City, Tokyo 144-0035, Japan",
                 description="大田区産業プラザPiO 1F大展示ホール",
-                sources=[Source("https://web.archive.org/web/20231112044409/https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm53", (ReliabilityTypes.Reliable, OriginTypes.OfficialExt))]
+                sources=[Source("https://web.archive.org/web/20231112044409/https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm53", (ReliabilityTypes.Reliable, OriginTypes.OfficialExt))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlSopXAxX4zYII19vbdI4rX0w5RiVyPdD_3T-rcKAI3NBfzD7cKS2HEXWrr_JXATLT3BXULla2lC3oHidDik9oIlyt_6fS4t9y2wbW_lLHAvuil4Cw0WsOtevHY2sumWk6a1Mp8Hg=s0?imgmax=0",
+                url="https://maps.app.goo.gl/mSxwaUchFHGpFwBf9",
             ),  
         ]
         event = Event(
@@ -2096,9 +2309,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3245.794139163642!2d139.7214917753278!3d35.55878603669134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601860f87f5da4e3%3A0x8a0493a2f4accfb0!2sOta%20City%20Industrial%20Plaza%20PiO!5e0!3m2!1sen!2sfr!4v1766760726321!5m2!1sen!2sfr",
+                coordinates=(35.5587817, 139.7240667),
+                address="1 Chome-20-20 Minamikamata, Ota City, Tokyo 144-0035, Japan",
                 description="大田区産業プラザPiO 1F大展示ホール",
-                sources=[Source("https://web.archive.org/web/20240108153949/https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm54", (ReliabilityTypes.Reliable, OriginTypes.OfficialExt))]
+                sources=[Source("https://web.archive.org/web/20240108153949/https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm54", (ReliabilityTypes.Reliable, OriginTypes.OfficialExt))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlSopXAxX4zYII19vbdI4rX0w5RiVyPdD_3T-rcKAI3NBfzD7cKS2HEXWrr_JXATLT3BXULla2lC3oHidDik9oIlyt_6fS4t9y2wbW_lLHAvuil4Cw0WsOtevHY2sumWk6a1Mp8Hg=s0?imgmax=0",
+                url="https://maps.app.goo.gl/mSxwaUchFHGpFwBf9",
             ),  
         ]
         event = Event(
@@ -2135,9 +2352,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.1900108045256!2d140.03295367533178!3d35.64768993181651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6022821fd52ebfdf%3A0xcec0c09c4bed45e0!2sMakuhari%20Messe!5e0!3m2!1sen!2sfr!4v1766770606094!5m2!1sen!2sfr",
+                coordinates=(35.6476856, 140.0329537),
+                address="2 Chome-1 Nakase, Mihama Ward, Chiba, 261-8550, Japan",
                 description="幕張メッセ",
-                sources=[Source("https://web.archive.org/web/20240504114400/https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm55", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+                sources=[Source("https://web.archive.org/web/20240504114400/https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm55", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlES5CPbqhYge4VPOdfFXqP8UJEGKjnoXhgnbdlK7-02Oefoc3H_gez6YUwRtN7P2ilkXR1lhse1I9lRd9Wnu4ApAgKhz_lZFl4GN2PxgsYiFmRvQhe8aRShyOuVbwQIvJQ6wWR=s0?imgmax=0",
+                url="https://maps.app.goo.gl/6Y3UmT26SxxpvsJT9",
             ),  
         ]
         event = Event(
@@ -2174,9 +2395,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3245.794139163642!2d139.7214917753278!3d35.55878603669134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601860f87f5da4e3%3A0x8a0493a2f4accfb0!2sOta%20City%20Industrial%20Plaza%20PiO!5e0!3m2!1sen!2sfr!4v1766760726321!5m2!1sen!2sfr",
+                coordinates=(35.5587817, 139.7240667),
+                address="1 Chome-20-20 Minamikamata, Ota City, Tokyo 144-0035, Japan",
                 description="大田区産業プラザPiO 1F大展示ホール",
-                sources=[Source("https://web.archive.org/web/20240715124116/https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm56", (ReliabilityTypes.Reliable, OriginTypes.OfficialExt))]
+                sources=[Source("https://web.archive.org/web/20240715124116/https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm56", (ReliabilityTypes.Reliable, OriginTypes.OfficialExt))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlSopXAxX4zYII19vbdI4rX0w5RiVyPdD_3T-rcKAI3NBfzD7cKS2HEXWrr_JXATLT3BXULla2lC3oHidDik9oIlyt_6fS4t9y2wbW_lLHAvuil4Cw0WsOtevHY2sumWk6a1Mp8Hg=s0?imgmax=0",
+                url="https://maps.app.goo.gl/mSxwaUchFHGpFwBf9",
             ),  
         ]
         event = Event(
@@ -2207,9 +2432,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1622.4614245873063!2d139.74702373866853!3d35.58029602459979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601861bc691ff473%3A0x3c65b91947c29bba!2sTRC%20First%20Exhibition%20Hall!5e0!3m2!1sen!2sfr!4v1766790392057!5m2!1sen!2sfr",
+                coordinates=(35.5808204, 139.748996),
+                address="１F, 6 Chome-1-1 Heiwajima, Ota City, Tokyo 143-0006, Japan",
                 description="TRC東京流通センター第一展示場 ",
-                sources=[Source("https://web.archive.org/web/20240930160643/https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm57", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+                sources=[Source("https://web.archive.org/web/20240930160643/https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm57", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlXZxrT3HOAPZXqXqjSNUheErA2NbgUEaveohlKkJoKdJ-7gGeV5I-33-fz9QGAfH9ipV_ukUkxEpmbEc9nrVi3hxnZC6Vh-Vihs_WSHnT0Zf3Eruhe4oClHJtWN0Tj-oQ96Bzz=s0?imgmax=0",
+                url="https://maps.app.goo.gl/4nuorPZFReePsUq47",
             ),  
         ]
         event = Event(
@@ -2240,9 +2469,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3245.794139163642!2d139.7214917753278!3d35.55878603669134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601860f87f5da4e3%3A0x8a0493a2f4accfb0!2sOta%20City%20Industrial%20Plaza%20PiO!5e0!3m2!1sen!2sfr!4v1766760726321!5m2!1sen!2sfr",
+                coordinates=(35.5587817, 139.7240667),
+                address="1 Chome-20-20 Minamikamata, Ota City, Tokyo 144-0035, Japan",
                 description="大田区産業プラザPiO 1F大展示ホール",
-                sources=[Source("https://web.archive.org/web/20241223123456/https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm58", (ReliabilityTypes.Reliable, OriginTypes.OfficialExt))]
+                sources=[Source("https://web.archive.org/web/20241223123456/https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm58", (ReliabilityTypes.Reliable, OriginTypes.OfficialExt))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlSopXAxX4zYII19vbdI4rX0w5RiVyPdD_3T-rcKAI3NBfzD7cKS2HEXWrr_JXATLT3BXULla2lC3oHidDik9oIlyt_6fS4t9y2wbW_lLHAvuil4Cw0WsOtevHY2sumWk6a1Mp8Hg=s0?imgmax=0",
+                url="https://maps.app.goo.gl/mSxwaUchFHGpFwBf9",
             ),  
         ]
         event = Event(
@@ -2279,9 +2512,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.1900108045256!2d140.03295367533178!3d35.64768993181651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6022821fd52ebfdf%3A0xcec0c09c4bed45e0!2sMakuhari%20Messe!5e0!3m2!1sen!2sfr!4v1766770606094!5m2!1sen!2sfr",
+                coordinates=(35.6476856, 140.0329537),
+                address="2 Chome-1 Nakase, Mihama Ward, Chiba, 261-8550, Japan",
                 description="幕張メッセ",
-                sources=[Source("https://ketto.com/tvm/tvm20ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+                sources=[Source("https://ketto.com/tvm/tvm20ippan.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlES5CPbqhYge4VPOdfFXqP8UJEGKjnoXhgnbdlK7-02Oefoc3H_gez6YUwRtN7P2ilkXR1lhse1I9lRd9Wnu4ApAgKhz_lZFl4GN2PxgsYiFmRvQhe8aRShyOuVbwQIvJQ6wWR=s0?imgmax=0",
+                url="https://maps.app.goo.gl/6Y3UmT26SxxpvsJT9",
             ),  
         ]
         event = Event(
@@ -2319,9 +2556,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.1900108045256!2d140.03295367533178!3d35.64768993181651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6022821fd52ebfdf%3A0xcec0c09c4bed45e0!2sMakuhari%20Messe!5e0!3m2!1sen!2sfr!4v1766770606094!5m2!1sen!2sfr",
+                coordinates=(35.6476856, 140.0329537),
+                address="2 Chome-1 Nakase, Mihama Ward, Chiba, 261-8550, Japan",
                 description="幕張メッセ",
-                sources=[Source("https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm60", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+                sources=[Source("https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm60", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlES5CPbqhYge4VPOdfFXqP8UJEGKjnoXhgnbdlK7-02Oefoc3H_gez6YUwRtN7P2ilkXR1lhse1I9lRd9Wnu4ApAgKhz_lZFl4GN2PxgsYiFmRvQhe8aRShyOuVbwQIvJQ6wWR=s0?imgmax=0",
+                url="https://maps.app.goo.gl/6Y3UmT26SxxpvsJT9",
             ),  
         ]
         event = Event(
@@ -2356,9 +2597,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1622.4614245873063!2d139.74702373866853!3d35.58029602459979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601861bc691ff473%3A0x3c65b91947c29bba!2sTRC%20First%20Exhibition%20Hall!5e0!3m2!1sen!2sfr!4v1766790392057!5m2!1sen!2sfr",
+                coordinates=(35.5808204, 139.748996),
+                address="１F, 6 Chome-1-1 Heiwajima, Ota City, Tokyo 143-0006, Japan",
                 description="TRC東京流通センター第一展示場ABCホール",
-                sources=[Source("https://web.archive.org/web/20251116114415/https://ketto.com/tvm/tvm61youkou.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+                sources=[Source("https://web.archive.org/web/20251116114415/https://ketto.com/tvm/tvm61youkou.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlXZxrT3HOAPZXqXqjSNUheErA2NbgUEaveohlKkJoKdJ-7gGeV5I-33-fz9QGAfH9ipV_ukUkxEpmbEc9nrVi3hxnZC6Vh-Vihs_WSHnT0Zf3Eruhe4oClHJtWN0Tj-oQ96Bzz=s0?imgmax=0",
+                url="https://maps.app.goo.gl/4nuorPZFReePsUq47",
             ),  
         ]
         event = Event(
@@ -2392,9 +2637,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.1900108045256!2d140.03295367533178!3d35.64768993181651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6022821fd52ebfdf%3A0xcec0c09c4bed45e0!2sMakuhari%20Messe!5e0!3m2!1sen!2sfr!4v1766770606094!5m2!1sen!2sfr",
+                coordinates=(35.6476856, 140.0329537),
+                address="2 Chome-1 Nakase, Mihama Ward, Chiba, 261-8550, Japan",
                 description="幕張メッセ",
-                sources=[Source("https://web.archive.org/web/20260424152815/https://ketto.com/tvm/", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+                sources=[Source("https://web.archive.org/web/20260424152815/https://ketto.com/tvm/", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlES5CPbqhYge4VPOdfFXqP8UJEGKjnoXhgnbdlK7-02Oefoc3H_gez6YUwRtN7P2ilkXR1lhse1I9lRd9Wnu4ApAgKhz_lZFl4GN2PxgsYiFmRvQhe8aRShyOuVbwQIvJQ6wWR=s0?imgmax=0",
+                url="https://maps.app.goo.gl/6Y3UmT26SxxpvsJT9",
             ),  
         ]
         event = Event(
@@ -2428,9 +2677,13 @@ if __name__ == "__main__":
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1622.4614245873063!2d139.74702373866853!3d35.58029602459979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601861bc691ff473%3A0x3c65b91947c29bba!2sTRC%20First%20Exhibition%20Hall!5e0!3m2!1sen!2sfr!4v1766790392057!5m2!1sen!2sfr",
+                coordinates=(35.5808204, 139.748996),
+                address="１F, 6 Chome-1-1 Heiwajima, Ota City, Tokyo 143-0006, Japan",
                 description="TRC東京流通センター第二展示場Eホール",
-                sources=[Source("https://web.archive.org/web/20260624110958/https://ketto.com/tvm/", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+                sources=[Source("https://web.archive.org/web/20260624110958/https://ketto.com/tvm/", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlXZxrT3HOAPZXqXqjSNUheErA2NbgUEaveohlKkJoKdJ-7gGeV5I-33-fz9QGAfH9ipV_ukUkxEpmbEc9nrVi3hxnZC6Vh-Vihs_WSHnT0Zf3Eruhe4oClHJtWN0Tj-oQ96Bzz=s0?imgmax=0",
+                url="https://maps.app.goo.gl/4nuorPZFReePsUq47",
             ),  
         ]
         event = Event(
@@ -2461,11 +2714,6 @@ if __name__ == "__main__":
     #         #        [Source("", (ReliabilityTypes.Reliable, OriginTypes.Official))]),
     #         ]
     #     locations = [
-    #         Location(
-    #             iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1622.4614245873063!2d139.74702373866853!3d35.58029602459979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601861bc691ff473%3A0x3c65b91947c29bba!2sTRC%20First%20Exhibition%20Hall!5e0!3m2!1sen!2sfr!4v1766790392057!5m2!1sen!2sfr",
-    #             description="TRC東京流通センター",
-    #             sources=[Source("", (ReliabilityTypes.Reliable, OriginTypes.Official))]
-    #         ),  
     #     ]
     #     event = Event(
     #         aliases=["THE VOC＠LOiD M＠STER ", "ボーマス", "VOM@S"],
