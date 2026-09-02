@@ -67,12 +67,12 @@ def retrieve_circles(event_name: str) -> list[Circle]:
 
 if __name__ == "__main__":
     events: list[Event] = []
-    active_events: list[int | str] = list(range(1, 61 + 1))
+    disabled_events: list[int | str] = []
 
     puella = "https://puellabyte.github.io/events" # TODO: do without it
 
-    if True: # ==== tvm 1 ====
-        i = 1
+    i = 1 # ==== tvm1 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -108,8 +108,8 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 2 ====
-        i = 2
+    i = 2 # ==== tvm2 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -146,8 +146,8 @@ if __name__ == "__main__":
         # event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 3 ====
-        i = 3
+    i = 3 # ==== tvm3 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -183,8 +183,8 @@ if __name__ == "__main__":
         # event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 4 ====
-        i = 4
+    i = 4 # ==== tvm4 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -222,8 +222,8 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 5 ====
-        i = 5
+    i = 5 # ==== tvm5 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -263,8 +263,8 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 6 ====
-        i = 6
+    i = 6 # ==== tvm6 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -304,8 +304,8 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 7 ====
-        i = 7
+    i = 7 # ==== tvm7 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -345,8 +345,8 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 8 ====
-        i = 8
+    i = 8 # ==== tvm8 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -386,8 +386,8 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 9 ====
-        i = 9
+    i = 9 # ==== tvm9 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -427,8 +427,8 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 10 ====
-        i = 10
+    i = 10 # ==== tvm10 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -468,8 +468,8 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 11 ====
-        i = 11
+    i = 11 # ==== tvm11 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -512,8 +512,8 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 12 ====
-        i = 12
+    i = 12 # ==== tvm12 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -554,8 +554,8 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 13 ====
-        i = 13
+    i = 13 # ==== tvm13 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -595,8 +595,8 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 14 ====
-        i = 14
+    i = 14 # ==== tvm14 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -636,8 +636,8 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 15 ====
-        i = 15
+    i = 15 # ==== tvm15 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -677,8 +677,8 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 16 ====
-        i = 16
+    i = 16 # ==== tvm16 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -718,8 +718,8 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 17 ====
-        i = 17
+    i = 17 # ==== tvm17 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -759,8 +759,8 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 18 ====
-        i = 18
+    i = 18 # ==== tvm18 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -800,8 +800,8 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 19 ====
-        i = 19
+    i = 19 # ==== tvm19 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -841,8 +841,8 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 20 ====
-        i = 20
+    i = 20 # ==== tvm20 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -892,8 +892,8 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 21 ====
-        i = 21
+    i = 21 # ==== tvm21 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -933,8 +933,8 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 22 ====
-        i = 22
+    i = 22 # ==== tvm22 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -976,8 +976,8 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 23 ====
-        i = 23
+    i = 23 # ==== tvm23 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -1017,8 +1017,8 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 24 ====
-        i = 24
+    i = 24 # ==== tvm24 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -1068,8 +1068,8 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 25 ====
-        i = 25
+    i = 25 # ==== tvm25 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -1109,8 +1109,8 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 26 ====
-        i = 26
+    i = 26 # ==== tvm26 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -1152,8 +1152,8 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 27 ====
-        i = 27
+    i = 27 # ==== tvm27 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -1193,8 +1193,8 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 28 ====
-        i = 28
+    i = 28 # ==== tvm28 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -1242,8 +1242,8 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 29 ====
-        i = 29
+    i = 29 # ==== tvm29 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -1284,8 +1284,8 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 30 ====
-        i = 30
+    i = 30 # ==== tvm30 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -1326,8 +1326,8 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 31 ====
-        i = 31
+    i = 31 # ==== tvm31 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -1374,8 +1374,8 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 32 ====
-        i = 32
+    i = 32 # ==== tvm32 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -1416,8 +1416,8 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 33 ====
-        i = 33
+    i = 33 # ==== tvm33 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -1459,8 +1459,8 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 34 ====
-        i = 34
+    i = 34 # ==== tvm34 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -1503,8 +1503,8 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 35 ====
-        i = 35
+    i = 35 # ==== tvm35 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -1545,8 +1545,8 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 36 ====
-        i = 36
+    i = 36 # ==== tvm36 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -1587,8 +1587,8 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 37 ====
-        i = 37
+    i = 37 # ==== tvm37 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -1633,8 +1633,8 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 38 ====
-        i = 38
+    i = 38 # ==== tvm38 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -1669,8 +1669,8 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 39 ====
-        i = 39
+    i = 39 # ==== tvm39 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -1713,8 +1713,8 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 40 ====
-        i = 40
+    i = 40 # ==== tvm40 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -1750,8 +1750,8 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 41 ====
-        i = 41
+    i = 41 # ==== tvm41 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -1791,8 +1791,8 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 42 ====
-        i = 42
+    i = 42 # ==== tvm42 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -1834,8 +1834,8 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 43 ====
-        i = 43
+    i = 43 # ==== tvm43 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -1875,8 +1875,8 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 44 ====
-        i = 44
+    i = 44 # ==== tvm44 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -1918,8 +1918,8 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 45 ====
-        i = 45
+    i = 45 # ==== tvm45 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -1959,8 +1959,8 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 46 ====
-        i = 46
+    i = 46 # ==== tvm46 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -2001,8 +2001,8 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 47 ====
-        i = 47
+    i = 47 # ==== tvm47 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -2042,8 +2042,8 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 48 ====
-        i = 48
+    i = 48 # ==== tvm48 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -2087,8 +2087,8 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 49 ====
-        i = 49
+    i = 49 # ==== tvm49 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -2128,8 +2128,8 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 50 ====
-        i = 50
+    i = 50 # ==== tvm50 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -2169,8 +2169,8 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 51 ====
-        i = 51
+    i = 51 # ==== tvm51 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -2216,8 +2216,8 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 52 ====
-        i = 52
+    i = 52 # ==== tvm52 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -2253,8 +2253,8 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 53 ====
-        i = 53
+    i = 53 # ==== tvm53 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -2292,8 +2292,8 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 54 ====
-        i = 54
+    i = 54 # ==== tvm54 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -2333,8 +2333,8 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 55 ====
-        i = 55
+    i = 55 # ==== tvm55 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -2378,8 +2378,8 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 56 ====
-        i = 56
+    i = 56 # ==== tvm56 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -2419,8 +2419,8 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 57 ====
-        i = 57
+    i = 57 # ==== tvm57 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -2456,8 +2456,8 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 58 ====
-        i = 58
+    i = 58 # ==== tvm58 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -2493,8 +2493,8 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 59 ====
-        i = 59  
+    i = 59   # ==== tvm59   ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -2538,8 +2538,8 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 60 ====
-        i = 60
+    i = 60 # ==== tvm60 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
@@ -2580,8 +2580,8 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
-    if True: # ==== tvm 61 ====
-        i = 61
+    i = 61 # ==== tvm61 ====
+    if i not in disabled_events:
         event_name = f"tvm{i}"
         print(f"Processing {event_name} ...")
         
